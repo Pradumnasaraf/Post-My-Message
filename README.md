@@ -14,11 +14,40 @@
 
 ### 🛣️ Routes
 
-**GET :**
+**GET:**
 
 - `/` - Homepage
 
-**POST :**
+**POST:**
 
-- `/sendsms` - Send an sms to a particular number with a custom message
-- `/sendquote` - Send a random quote to particular number.
+- `/sendsms` - Sends an SMS to a particular number with a custom message
+- `/sendquote` - Send a random quote to a particular number.
+
+---
+
+### Using the project.
+
+> Using the `/sendsms` `POST` method.
+
+It sends a custom message to the number provided. The request body should have a `"phone"` and `"message"`property that contains the receiver's number and message.
+
+Note: Sender's number will be your Twilio number, which you configure in the [.env]()
+
+```JSON
+{
+    "message": "Hey, this message is from Twilio",
+    "phone": "+111111111111"
+}
+```
+
+> `/sendquote` `POST` method.
+
+It sends a ransom quote to the number provided. The request body should have a `"phone"` property that contains the receiver's number.
+
+Note: Sender's number will be your Twilio number, which you configure in the [.env]()
+
+```JSON
+{
+    "phone": "+111111111111"
+}
+```
