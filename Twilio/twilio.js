@@ -8,7 +8,7 @@ const twilioClient = require("twilio")(accountSid, authToken);
 
 class TwilioRes {
   message;
-  sendSms(phone, message) {
+  sendSms(phone, message,res) {
     twilioClient.messages
       .create({
         body: message,
@@ -17,9 +17,12 @@ class TwilioRes {
       })
       .then((message) => {
         console.log(`${message.sid}`);
+        res.status(200).send(`Message sent to ${phone}, with message SID ${message.sid}.`);
+      }).catch((err) => {
+        console.log(err);
       });
   }
-  sendQuote(phone) {
+  sendQuote(phone, res) {
     axios
       .get(`https://api.quotable.io/random`)
       .then((response) => {
@@ -32,7 +35,11 @@ class TwilioRes {
           })
           .then((message) => {
             console.log(`${message.sid}`);
+            res.status(200).send(`Quote sent to ${phone}, with message SID ${message.sid}.`);
+          }).catch((err) => {
+            console.log(err);
           });
+
       })
       .catch((error) => {
         console.log(error);
