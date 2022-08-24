@@ -8,7 +8,7 @@ const twilioClient = require("twilio")(accountSid, authToken);
 
 class TwilioRes {
   message;
-  sendSms(phone, message,res) {
+  sendSms(phone, message, res) {
     twilioClient.messages
       .create({
         body: message,
@@ -17,8 +17,11 @@ class TwilioRes {
       })
       .then((message) => {
         console.log(`${message.sid}`);
-        res.status(200).send(`Message sent to ${phone}, with message SID ${message.sid}.`);
-      }).catch((err) => {
+        res
+          .status(200)
+          .send(`Message sent to ${phone}, with message SID ${message.sid}.`);
+      })
+      .catch((err) => {
         console.log(err);
       });
   }
@@ -35,11 +38,13 @@ class TwilioRes {
           })
           .then((message) => {
             console.log(`${message.sid}`);
-            res.status(200).send(`Quote sent to ${phone}, with message SID ${message.sid}.`);
-          }).catch((err) => {
+            res
+              .status(200)
+              .send(`Quote sent to ${phone}, with message SID ${message.sid}.`);
+          })
+          .catch((err) => {
             console.log(err);
           });
-
       })
       .catch((error) => {
         console.log(error);
