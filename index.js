@@ -2,11 +2,6 @@ const express = require("express");
 const twilio = require("twilio");
 require("dotenv").config();
 const path = require("path");
-
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const client = twilio(accountSid, authToken);
-
 const app = express();
 
 app.use(express.static(path.join(__dirname, "./public")));
