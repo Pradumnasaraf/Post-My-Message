@@ -2,6 +2,7 @@ tasks:
   - name: Server
     init: |
       npm ci
+      npm run env
     command:   
       npm run dev
       
