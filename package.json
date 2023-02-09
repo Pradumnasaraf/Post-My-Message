@@ -1,16 +1,19 @@
 {
   "name": "twilio-project",
   "version": "1.2.0",
-  "description": "Twilio project",
+  "description": "A simple project to send SMS using Twilio API and Post request.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "env": "cp .env.example .env"
   },
   "keywords": [
     "Twilio",
-    "Node"
+    "Node",
+    "Express",
+    "SMS"
   ],
   "author": "Pradumna Saraf",
   "license": "MIT",
