@@ -35,7 +35,43 @@ It sends a random quote to the number provided. The request body should have a `
 }
 ```
 
-## 🚀 Deployment
+## 👨‍💻 Developing the API
+
+This section includes how to test and develop API at your end. You can either run it in the cloud using **Gitpod** or run it inside a container using **docker** or choose to set up the complete environment locally.
+
+**GitPod**
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/OpenSource-API)
+
+**Docker Compose**
+
+Prerequisites - Docker and Compose installed in your local system.
+
+> NOTE: First add the the environment variables to the `.env.example file`
+
+You can run below command and you can access the API at `localhost:9009`
+
+```bash
+docker compose up
+```
+
+**Local setup**
+
+Prerequisites- Node.js installed and a Mongo server on your localhost.
+
+> NOTE: First add the the environment variables to the `.env.example file`
+
+Step 1: Copy `.env.example` to `.env`.
+
+```
+npm run env
+```
+
+Step 2: Run the app in development mode.
+
+```
+npm run dev
+```
 
 ## 📝 License
 
