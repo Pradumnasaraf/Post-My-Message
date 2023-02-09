@@ -4,8 +4,9 @@
   "description": "Twilio project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "format": "prettier --write ."
   },
   "keywords": [
     "Twilio",
@@ -21,6 +22,7 @@
     "twilio": "^3.80.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "prettier": "^2.8.4"
   }
 }
