@@ -1,37 +1,24 @@
 <div align="center">
-<h2>Twilio Messaging APP</h2>
-<h4>This app delivers a message to your friend with a simple POST request.</h4>
+
+<img src="https://user-images.githubusercontent.com/51878265/217935936-5dec05f0-4c7c-471a-afe5-9de721f7da84.png">
+
+<h4>Send sms or a beautiful quote to your friend by a simple POST request.</h4>
 </div>
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/Twilio-messaging-app/)
-
----
 
 ## 👨‍💻 Tech stack
 
-<!-- prettier-ignore -->
-<img height="35px" src="https://user-images.githubusercontent.com/51878265/185637172-96ca680f-8d4f-4d7f-939b-e9978ccedb4e.png">  <img height="35px" src="https://user-images.githubusercontent.com/51878265/185637188-8f6888e6-9fd4-46fb-8f21-ad83c4d3537c.png">  <img height="35px" src="https://user-images.githubusercontent.com/51878265/185637193-86c58c70-d00e-42a3-9cc1-1f717f6f7309.png">
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
+- [Twilio](https://www.twilio.com/)
+- [Vercel](https://vercel.com/)
 
-## 📷 Live Screenshot
+## 🛠️ Using the Routes
 
-<p align="center"><img src="https://user-images.githubusercontent.com/51878265/186444170-309fec99-454f-45b4-a11f-bfdb6655db20.png" height="500"></p>
+After deploying the API the request will be on {API_BASE_URL}/{route}. This project is deployed with the base URL as `https://post-my-message.vercel.app/`.
 
-## 🛣️ Routes
+**Send a custom message to a number - `/sendsms` POST method.**
 
-**GET:**
-
-- `/` - Homepage
-
-**POST:**
-
-- `/sendsms` - Sends an SMS to a particular number with a custom message
-- `/sendquote` - Send a SMS with a random quote to a particular number.
-
-## 🛠️ Using the project.
-
-> `/sendsms` POST method.
-
-It sends a custom message to the number provided. The request body should have a `"phone"` and `"message"`property that contains the receiver's number and a message.
+It sends a custom message to the number provided. The request body should have a `"phone"` and `"message"`property that contains the receiver's number and a message. The POST body should be in JSON format.
 
 <!-- Note: Sender's number will be your Twilio number, which you configure in the [.env](/.env_sample) -->
 
@@ -42,11 +29,9 @@ It sends a custom message to the number provided. The request body should have a
 }
 ```
 
-> `/sendquote` POST method.
+**Send a random quote to a number - `/sendquote` POST method.**
 
-It sends a random quote to the number provided. The request body should have a `"phone"` property that contains the receiver's number.
-
-Note: Sender's number will be your Twilio number, which you configure in the [.env](/.env_sample)
+It sends a random quote to the number provided. The request body should have a `"phone"` property that contains the receiver's number. The POST body should be in JSON format.
 
 ```JSON
 {
@@ -54,6 +39,48 @@ Note: Sender's number will be your Twilio number, which you configure in the [.e
 }
 ```
 
-## 🎥 API Testing Demo
+## 👨‍💻 Developing the API
 
-https://user-images.githubusercontent.com/51878265/186445191-11da0678-a12d-4383-a918-e395e22c06aa.mp4
+This section includes how to test and develop API at your end. You can either run it in the cloud using **Gitpod** or run it inside a container using **docker** or choose to set up the complete environment locally.
+
+**GitPod**
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/Post-My-Message)
+
+**Docker Compose**
+
+Prerequisites - Docker and Compose installed in your local system.
+
+> NOTE: First add the the environment variables to the `.env.example` file.
+
+You can run below command and you can access the API at `localhost:9009`
+
+```bash
+docker compose up
+```
+
+**Local setup**
+
+Prerequisites- Node.js installed and a Mongo server on your localhost.
+
+> NOTE: First add the the environment variables to the `.env.example` file.
+
+Step 1: Copy `.env.example` to `.env`.
+
+```
+npm run env
+```
+
+Step 2: Run the app in development mode.
+
+```
+npm run dev
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## 🙏 Support
+
+If you liked the project, please consider giving it a ⭐️
