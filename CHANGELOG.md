@@ -1,3 +1,12 @@
+## [1.5.1](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.5.0...v1.5.1) (2023-02-09)
+
+
+### Bug Fixes
+
+* update the new README ([#4](https://github.com/Pradumnasaraf/Post-My-Message/issues/4)) ([1fa6db8](https://github.com/Pradumnasaraf/Post-My-Message/commit/1fa6db887f8b29cdafe34373987c4bc34cdf2194))
+
+
+
 # [1.5.0](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.4.0...v1.5.0) (2023-02-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added res to api methods ([4a581f1](https://github.com/Pradumnasaraf/Post-My-Message/commit/4a581f1233cf495d877b6e0fc1f22c35d5019e01))
-
-
-
-## [1.1.2](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.1.0...v1.1.2) (2022-08-20)
-
-
-### Bug Fixes
-
-* Github link in index.html ([3f76dfa](https://github.com/Pradumnasaraf/Post-My-Message/commit/3f76dfa1075abed5433bb507a2c79295f564e894))
 
 
 
