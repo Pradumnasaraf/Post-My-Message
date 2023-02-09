@@ -1,9 +1,8 @@
-const TwilioRes = require("../Twilio/twilio.js");
-const twilioMeth = new TwilioRes();
+const createQuote = require("../twilio/createQuote.js");
 const sendQuote = async (req, res) => {
   const { phone } = req.body;
   if (phone) {
-    twilioMeth.sendQuote(phone, res);
+    createQuote(phone, res);
   }
 };
 
