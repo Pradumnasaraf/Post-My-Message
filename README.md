@@ -43,7 +43,7 @@ This section includes how to test and develop API at your end. You can either ru
 
 **GitPod**
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/OpenSource-API)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/Post-My-Message)
 
 **Docker Compose**
 
