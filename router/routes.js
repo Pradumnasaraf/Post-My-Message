@@ -1,19 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const TwilioRes = require("../Twilio/twilio.js");
-const twilioMeth = new TwilioRes();
+const sendQuote = require("../controller/sendQuote.js");
+const sendSms = require("../controller/sendSms.js");
 
-router.post("/sendsms", (req, res) => {
-  const { phone, message } = req.body;
-  if (phone && message) {
-    twilioMeth.sendSms(phone, message, res);
-  }
-});
-router.post("/sendquote", (req, res) => {
-  const { phone } = req.body;
-  if (phone) {
-    twilioMeth.sendQuote(phone, res);
-  }
-});
+router.post("/sendsms", sendSms);
+router.post("/sendquote", sendQuote);
 
 module.exports = router;
