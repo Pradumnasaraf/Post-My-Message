@@ -1,9 +1,5 @@
 const axios = require("axios").default;
-require("dotenv").config();
-
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const fromNumber = process.env.TWILIO_FROM_NUMBER;
+const { accountSid, authToken, fromNumber } = require("../config/config");
 const twilioClient = require("twilio")(accountSid, authToken);
 
 const createQuote = (phone, res) => {
