@@ -47,7 +47,7 @@ This section includes how to test and develop API at your end. You can either ru
 
 Prerequisites - Docker and Compose installed in your local system.
 
-> NOTE: First add the the environment variables to the `.env.example file`
+> NOTE: First add the the environment variables to the `.env.example` file.
 
 You can run below command and you can access the API at `localhost:9009`
 
@@ -59,7 +59,7 @@ docker compose up
 
 Prerequisites- Node.js installed and a Mongo server on your localhost.
 
-> NOTE: First add the the environment variables to the `.env.example file`
+> NOTE: First add the the environment variables to the `.env.example` file.
 
 Step 1: Copy `.env.example` to `.env`.
 
