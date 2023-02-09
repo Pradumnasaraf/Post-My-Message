@@ -10,8 +10,6 @@
 - [Twilio](https://www.twilio.com/)
 - [Vercel](https://vercel.com/)
 
-
-
 ## 🛠️ Using the Routes
 
 - Send a custom message to a number - `/sendsms` POST method.
@@ -39,8 +37,6 @@ It sends a random quote to the number provided. The request body should have a `
 
 ## 🚀 Deployment
 
-
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
@@ -48,4 +44,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Support
 
 If you liked the project, please consider giving it a ⭐️
-
