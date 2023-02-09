@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.4.0...v1.5.0) (2023-02-09)
+
+
+### Features
+
+* Added config file support ([afaeefe](https://github.com/Pradumnasaraf/Post-My-Message/commit/afaeefed7e26308ef4559b7d1f2adc8f8ea0d436))
+
+
+
 # [1.4.0](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.3.0...v1.4.0) (2023-02-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Github link in index.html ([3f76dfa](https://github.com/Pradumnasaraf/Post-My-Message/commit/3f76dfa1075abed5433bb507a2c79295f564e894))
-
-
-
-# [1.1.0](https://github.com/Pradumnasaraf/Post-My-Message/compare/cfb05c4753aa248d67d1b585721c8381dba74c19...v1.1.0) (2022-08-19)
-
-
-### Features
-
-* Added initial files ([cfb05c4](https://github.com/Pradumnasaraf/Post-My-Message/commit/cfb05c4753aa248d67d1b585721c8381dba74c19))
 
 
 
