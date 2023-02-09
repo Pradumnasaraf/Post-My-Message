@@ -7,7 +7,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "format": "prettier --write .",
-    "env": "cp .env.example .env"
+    "env": "cp .env.example .env",
+    "dev:docker": "npm run env && npm run dev"
+
   },
   "keywords": [
     "Twilio",
