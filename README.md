@@ -12,7 +12,7 @@
 
 ## 🛠️ Using the Routes
 
-- Send a custom message to a number - `/sendsms` POST method.
+**Send a custom message to a number - `/sendsms` POST method.**
 
 It sends a custom message to the number provided. The request body should have a `"phone"` and `"message"`property that contains the receiver's number and a message.
 
@@ -25,7 +25,7 @@ It sends a custom message to the number provided. The request body should have a
 }
 ```
 
-- Send a random quote to a number - `/sendquote` POST method.
+**Send a random quote to a number - `/sendquote` POST method.**
 
 It sends a random quote to the number provided. The request body should have a `"phone"` property that contains the receiver's number.
 
