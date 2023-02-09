@@ -1,6 +1,6 @@
 <div align="center">
 <h2>Post My Message</h2>
-<h4>Send a Sms or a beautiful quote to your friend by a simple POST request.</h4>
+<h4>Send a sms or a beautiful quote to your friend by a simple POST request.</h4>
 </div>
 
 ## 👨‍💻 Tech stack
