@@ -12,9 +12,11 @@
 
 ## 🛠️ Using the Routes
 
+After deploying the API the request will be on {API_BASE_URL}/{route}. This project is deployed with the base URL as `https://post-my-message.vercel.app/`.
+
 **Send a custom message to a number - `/sendsms` POST method.**
 
-It sends a custom message to the number provided. The request body should have a `"phone"` and `"message"`property that contains the receiver's number and a message.
+It sends a custom message to the number provided. The request body should have a `"phone"` and `"message"`property that contains the receiver's number and a message. The POST body should be in JSON format.
 
 <!-- Note: Sender's number will be your Twilio number, which you configure in the [.env](/.env_sample) -->
 
@@ -27,7 +29,7 @@ It sends a custom message to the number provided. The request body should have a
 
 **Send a random quote to a number - `/sendquote` POST method.**
 
-It sends a random quote to the number provided. The request body should have a `"phone"` property that contains the receiver's number.
+It sends a random quote to the number provided. The request body should have a `"phone"` property that contains the receiver's number. The POST body should be in JSON format.
 
 ```JSON
 {
