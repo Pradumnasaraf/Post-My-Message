@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  node-app:
+    container_name: post-my-message-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NODE_ENV: development
+    image: post-my-message
+    command: npm run dev:docker
+    ports:
+      - 9001:9001
+    volumes:
+      - .:/app
+

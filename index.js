@@ -10,7 +10,7 @@ app.use(require("./middleware/logger"));
 app.use("/", require("./router/routes"));
 app.use(require("./middleware/404.js"));
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 9001;
 app.listen(PORT, () => {
   console.log(`Server is LIVE on http://localhost:${PORT}`);
 });
