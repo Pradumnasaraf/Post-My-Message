@@ -18,10 +18,12 @@ const createQuote = (phone, res) => {
           to: phone,
         })
         .then((message) => {
-          console.log(`${message.sid}`);
-          res
-            .status(200)
-            .send(`Quote sent to ${phone}, with message SID ${message.sid}.`);
+          console.log(
+            `A quote was sent to ${phone}, with message SID ${message.sid}.`
+          );
+          res.status(200).send({
+            message: `message sent to ${phone}, with message SID ${message.sid}.`,
+          });
         })
         .catch((err) => {
           console.log(err);
