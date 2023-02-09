@@ -13,10 +13,14 @@ const createSms = (phone, message, res) => {
       to: phone,
     })
     .then((message) => {
-      console.log(`A SMS was sent to ${phone}, with message SID ${message.sid}.`);
+      console.log(
+        `A SMS was sent to ${phone}, with message SID ${message.sid}.`
+      );
       res
         .status(200)
-        .send({ message: `message sent to ${phone}, with message SID ${message.sid}.`});
+        .send({
+          message: `message sent to ${phone}, with message SID ${message.sid}.`,
+        });
     })
     .catch((err) => {
       console.log(err);
