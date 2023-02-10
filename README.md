@@ -53,7 +53,7 @@ Prerequisites - Docker and Compose installed in your local system.
 
 > NOTE: First add the the environment variables to the `.env.example` file.
 
-You can run below command and you can access the API at `localhost:9009`
+You can run below command and you can access the API at `localhost:9001`
 
 ```bash
 docker compose up
