@@ -79,7 +79,7 @@ npm run dev
 
 ## 🛡️ License
 
-This project is licensed under the [https://github.com/Pradumnasaraf/Post-My-Message/blob/main/LICENSE](GPL-3.0 license) - see the [LICENSE](LICENSE) file for details
+This project is licensed under the [GPL-3.0 license](https://github.com/Pradumnasaraf/Post-My-Message/blob/main/LICENSE) - see the [LICENSE](LICENSE) file for details
 
 ## 🤝 Support
 
