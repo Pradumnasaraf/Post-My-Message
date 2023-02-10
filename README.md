@@ -14,7 +14,7 @@
 
 ## 🛠️ Using the Routes
 
-After deploying the API the request will be on {API_BASE_URL}/{route}. This project is deployed with the base URL as `https://post-my-message.vercel.app/`.
+After deploying the API the request will be on {API_BASE_URL}/{route}. This project is deployed with the base URL as https://post-my-message.vercel.app/.
 
 **Send a custom message to a number - `/sendsms` POST method.**
 
