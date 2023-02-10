@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/51878265/218022991-bf87fcdb-973f-4dd2-8c9f-1aa887c92ae4.png">
+<img src="https://user-images.githubusercontent.com/51878265/218022991-bf87fcdb-973f-4dd2-8c9f-1aa887c92ae4.png" alt = "post my message banner">
 
 <h4>Send sms or a beautiful quote to your friend by a simple POST request.</h4>
 </div>
