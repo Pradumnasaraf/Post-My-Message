@@ -76,7 +76,7 @@ Step 2: Run the app in development mode.
 ```
 npm run dev
 ```
-You can access the API at localhost:9009
+You can access the API at localhost:9001
 
 ## 🛡️ License
 
