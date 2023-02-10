@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/51878265/217935936-5dec05f0-4c7c-471a-afe5-9de721f7da84.png">
+<img src="https://user-images.githubusercontent.com/51878265/218022991-bf87fcdb-973f-4dd2-8c9f-1aa887c92ae4.png">
 
 <h4>Send sms or a beautiful quote to your friend by a simple POST request.</h4>
 </div>
@@ -77,10 +77,11 @@ Step 2: Run the app in development mode.
 npm run dev
 ```
 
-## 📝 License
+## 🛡️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## 🙏 Support
+## 🤝 Support
 
 If you liked the project, please consider giving it a ⭐️
+
