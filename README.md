@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/51878265/218022991-bf87fcdb-973f-4dd2-8c9f-1aa887c92ae4.png" alt = "post my message banner">
 
-<h4>Send sms or a beautiful quote to your friend by a simple POST request.</h4>
+<h3>Send sms or a beautiful quote to your friend by a simple POST request.</h3>
 
 [![Format](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/prettier.yml/badge.svg)](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/prettier.yml) [![Publish Image to GitHub Container Registry](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/publish-ghcr.yml/badge.svg)](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/publish-ghcr.yml) [![Releases](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/releases.yml/badge.svg)](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/releases.yml)
 
@@ -10,11 +10,18 @@
 
 ## 👨‍💻 Tech stack
 
+- [![Node.js](https://img.shields.io/badge/Technology-Node.js-brightgreen.svg)](https://nodejs.org/)
+- [![Express.js](https://img.shields.io/badge/Framework-Express.js-blue.svg)](https://expressjs.com/)
+- [![Twilio](https://img.shields.io/badge/Service-Twilio-yellow.svg)](https://www.twilio.com/)
+- [![Vercel](https://img.shields.io/badge/Hosting-Vercel-red.svg)](https://vercel.com/)
+
+
+<!-- 
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 - [Twilio](https://www.twilio.com/)
 - [Vercel](https://vercel.com/)
-
+-->
 ## 🛠️ Using the Routes
 
 After deploying the API the request will be on {API_BASE_URL}/{route}. This project is deployed with the base URL as `https://post-my-message.vercel.app/`.
