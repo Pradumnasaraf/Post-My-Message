@@ -1,8 +1,11 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/51878265/218022991-bf87fcdb-973f-4dd2-8c9f-1aa887c92ae4.png">
+<img src="https://user-images.githubusercontent.com/51878265/218022991-bf87fcdb-973f-4dd2-8c9f-1aa887c92ae4.png" alt = "post my message banner">
 
 <h4>Send sms or a beautiful quote to your friend by a simple POST request.</h4>
+
+[![Format](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/prettier.yml/badge.svg)](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/prettier.yml) [![Publish Image to GitHub Container Registry](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/publish-ghcr.yml/badge.svg)](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/publish-ghcr.yml) [![Releases](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/releases.yml/badge.svg)](https://github.com/Pradumnasaraf/Post-My-Message/actions/workflows/releases.yml)
+
 </div>
 
 ## 👨‍💻 Tech stack
@@ -77,9 +80,11 @@ Step 2: Run the app in development mode.
 npm run dev
 ```
 
+You can access the API at localhost:9001
+
 ## 🛡️ License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the GPL-3.0 license - see the [LICENSE](LICENSE) file for details
 
 ## 🤝 Support
 
