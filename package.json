@@ -17,7 +17,7 @@
     "SMS"
   ],
   "author": "Pradumna Saraf",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
