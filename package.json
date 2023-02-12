@@ -1,7 +1,7 @@
 {
   "name": "post-my-message",
   "version": "1.5.1",
-  "description": "A simple project to send SMS using Twilio API and Post request.",
+  "description": "Send sms or a beautiful quote to your friend by a simple POST request.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -17,7 +17,7 @@
     "SMS"
   ],
   "author": "Pradumna Saraf",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
