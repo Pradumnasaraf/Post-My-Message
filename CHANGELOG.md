@@ -1,3 +1,12 @@
+## [1.5.2](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.5.1...v1.5.2) (2023-05-31)
+
+
+### Bug Fixes
+
+* Add version to DockerHub and GHCR images ([0125659](https://github.com/Pradumnasaraf/Post-My-Message/commit/01256593491901df8f33f962b189de70a9c5e53d))
+
+
+
 ## [1.5.1](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.5.0...v1.5.1) (2023-02-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Refactor API and project structure ([#2](https://github.com/Pradumnasaraf/Post-My-Message/issues/2)) ([c82fbc8](https://github.com/Pradumnasaraf/Post-My-Message/commit/c82fbc8dc48296396da2bb048223a90d00136a68))
-
-
-
-# [1.2.0](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.1.2...v1.2.0) (2022-08-24)
-
-
-### Features
-
-* added res to api methods ([4a581f1](https://github.com/Pradumnasaraf/Post-My-Message/commit/4a581f1233cf495d877b6e0fc1f22c35d5019e01))
 
 
 
