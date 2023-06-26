@@ -8,6 +8,7 @@
     "dev": "nodemon index.js",
     "format": "prettier --write .",
     "env": "cp .env.example .env",
+    "lint": "eslint .",
     "dev:docker": "npm run env && npm run dev"
   },
   "keywords": [
@@ -18,15 +19,17 @@
   ],
   "author": "Pradumna Saraf",
   "license": "GPL-3.0",
+  "type": "module",
   "dependencies": {
-    "axios": "^0.27.2",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "mongoose": "^6.5.2",
-    "twilio": "^3.80.1"
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "twilio": "^4.12.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19",
-    "prettier": "^2.8.4"
+    "eslint": "^8.43.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
   }
 }

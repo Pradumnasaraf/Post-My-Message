@@ -1,9 +1,10 @@
-const express = require("express");
+import express from "express";
+import sendQuote from "../controller/sendQuote.js";
+import sendSms from "../controller/sendSms.js";
+
 const router = express.Router();
-const sendQuote = require("../controller/sendQuote.js");
-const sendSms = require("../controller/sendSms.js");
 
 router.post("/sendsms", sendSms);
 router.post("/sendquote", sendQuote);
 
-module.exports = router;
+export default router;

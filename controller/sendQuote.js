@@ -1,4 +1,4 @@
-const createQuote = require("../twilio/createQuote.js");
+import createQuote from "../twilio/createQuote.js";
 const sendQuote = async (req, res) => {
   const { phone } = req.body;
   if (phone) {
@@ -6,4 +6,4 @@ const sendQuote = async (req, res) => {
   }
 };
 
-module.exports = sendQuote;
+export default sendQuote;
