@@ -1,4 +1,4 @@
-const createSms = require("../twilio/createSms");
+import createSms from "../twilio/createSms.js";
 const sendSms = async (req, res) => {
   const { phone, message } = req.body;
   if (phone && message) {
@@ -6,4 +6,4 @@ const sendSms = async (req, res) => {
   }
 };
 
-module.exports = sendSms;
+export default sendSms;

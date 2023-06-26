@@ -1,6 +1,7 @@
-const axios = require("axios").default;
-const { accountSid, authToken, fromNumber } = require("../config/config");
-const twilioClient = require("twilio")(accountSid, authToken);
+import axios from "axios";
+import { accountSid, authToken, fromNumber } from "../config/config.js";
+import twilio from "twilio";
+const twilioClient = twilio(accountSid, authToken);
 
 const createQuote = (phone, res) => {
   axios
@@ -30,4 +31,4 @@ const createQuote = (phone, res) => {
     });
 };
 
-module.exports = createQuote;
+export default createQuote;

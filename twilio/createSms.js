@@ -1,6 +1,8 @@
-require("dotenv").config();
-const { accountSid, authToken, fromNumber } = require("../config/config");
-const twilioClient = require("twilio")(accountSid, authToken);
+import dotenv from "dotenv";
+import twilio from "twilio";
+dotenv.config();
+import { accountSid, authToken, fromNumber } from "../config/config.js";
+const twilioClient = twilio(accountSid, authToken);
 
 const createSms = (phone, message, res) => {
   twilioClient.messages
@@ -22,4 +24,4 @@ const createSms = (phone, message, res) => {
     });
 };
 
-module.exports = createSms;
+export default createSms;
