@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.5.2...v1.6.0) (2023-06-26)
+
+
+### Features
+
+* Change repo to ES6 ([#43](https://github.com/Pradumnasaraf/Post-My-Message/issues/43)) ([44c1b39](https://github.com/Pradumnasaraf/Post-My-Message/commit/44c1b39be2685adac6b9f94f7ff9f18f0b661ab3))
+
+
+
 ## [1.5.2](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.5.1...v1.5.2) (2023-05-31)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * dockerize and add compose ([#3](https://github.com/Pradumnasaraf/Post-My-Message/issues/3)) ([c67e9f6](https://github.com/Pradumnasaraf/Post-My-Message/commit/c67e9f603b2bded87726324be14054d2b987474a))
-
-
-
-# [1.3.0](https://github.com/Pradumnasaraf/Post-My-Message/compare/v1.2.0...v1.3.0) (2023-02-09)
-
-
-### Features
-
-* Refactor API and project structure ([#2](https://github.com/Pradumnasaraf/Post-My-Message/issues/2)) ([c82fbc8](https://github.com/Pradumnasaraf/Post-My-Message/commit/c82fbc8dc48296396da2bb048223a90d00136a68))
 
 
 
