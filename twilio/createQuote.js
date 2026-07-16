@@ -16,7 +16,7 @@ const createQuote = (phone, res) => {
         })
         .then((message) => {
           console.log(
-            `A quote was sent to ${phone}, with message SID ${message.sid}.`
+            `A quote was sent to ${phone}, with message SID ${message.sid}.`,
           );
           res.status(200).send({
             message: `message sent to ${phone}, with message SID ${message.sid}.`,
