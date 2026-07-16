@@ -13,7 +13,6 @@ const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// eslint-disable-next-line no-undef
 app.use("/", express.static(path.join(__dirname, "./public")));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
